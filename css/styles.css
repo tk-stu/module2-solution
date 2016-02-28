@@ -4,22 +4,22 @@
 * {
   box-sizing: border-box;
 }
+
 h1 {
   margin-bottom: 15px;
   font-family: Helvetica;
   font-size: 175%;
   text-align: center;
 }
-section{
-  position: relative;
-  border: 1px solid green;
-  padding: 10px;
-
-}
-/* Put a border around the content to make it easy to see what is going on */
 p {
   border: 1px solid black;
   font-family: Helvetica;
+  margin: 0px;
+}
+.section {
+  position: relative;
+  border: 1px solid green;
+  padding: 10px;
   margin: 0px;
 }
 .sectiontitle {
@@ -36,7 +36,6 @@ p {
   background-color: #ff00ff;
   padding: 20px;
   color: black;
-
 }
 /* Simple Responsive Framework. */
 /* This might be called plagiarism in some circles but I like to think of it as code reuse. */
