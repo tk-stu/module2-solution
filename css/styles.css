@@ -4,6 +4,7 @@
 * {
   box-sizing: border-box;
 }
+
 h1 {
   margin-bottom: 15px;
   font-family: Helvetica;
@@ -12,22 +13,20 @@ h1 {
 }
 section{
   position: relative;
-  border: 1px solid black;
+  border: 1px solid green;
   padding: 10px;
   background-color: ##00ffff;
 }
 /* Put a border around the content to make it easy to see what is going on */
 p {
   border: 1px solid black;
-  width: 100%;
+  font-family: Helvetica;
   margin: 0px;
 }
 .sectiontitle {
   background-color: #00ff00;
   width:30%;
-  margin-bottom: 15px;
   text-align: center;
-  font-family: Helvetica;
   font-size: 125%;
   color: white;
   position: absolute;
@@ -38,10 +37,10 @@ p {
   background-color: #ff00ff;
   padding: 20px;
   color: black;
-  clear: right;
+
 }
 /* Simple Responsive Framework. */
-/* This might be called plagurism in some circles but I like to think of it as code reuse. */
+/* This might be called plagiarism in some circles but I like to think of it as code reuse. */
 .row {
   width: 100%;
 }
@@ -49,7 +48,6 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -92,7 +90,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
