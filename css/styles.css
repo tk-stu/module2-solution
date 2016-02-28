@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
 }
-
 h1 {
   margin-bottom: 15px;
   font-family: Helvetica;
@@ -15,7 +14,7 @@ section{
   position: relative;
   border: 1px solid green;
   padding: 10px;
-  background-color: ##00ffff;
+
 }
 /* Put a border around the content to make it easy to see what is going on */
 p {
