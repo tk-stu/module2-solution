@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 /********** Base styles **********/
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +16,7 @@ section{
   padding: 10px;
   background-color: ##00ffff;
 }
+/* Put a border around the content to make it easy to see what is going on */
 p {
   border: 1px solid black;
   width: 100%;
@@ -38,6 +41,7 @@ p {
   clear: right;
 }
 /* Simple Responsive Framework. */
+/* This might be called plagurism in some circles but I like to think of it as code reuse. */
 .row {
   width: 100%;
 }
@@ -127,3 +131,6 @@ p {
     width: 100%;
   }
 }
+=======
+
+>>>>>>> refs/remotes/origin/gh-pages
